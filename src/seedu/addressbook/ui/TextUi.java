@@ -108,6 +108,10 @@ public class TextUi {
     public void showInitFailedMessage() {
         showToUser(MESSAGE_INIT_FAILED, DIVIDER, DIVIDER);
     }
+    
+    public void showStorageMissingMessage(){
+    	showToUser(MESSAGE_INIT_FAILED, DIVIDER, DIVIDER);
+    }
 
     /** Shows message(s) to the user */
     public void showToUser(String... message) {
