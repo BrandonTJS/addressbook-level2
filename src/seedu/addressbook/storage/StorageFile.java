@@ -154,10 +154,10 @@ public class StorageFile {
         return path.toString();
     }
     
-    public boolean exists() throws FileNotFoundException{
-    	if(!new File(DEFAULT_STORAGE_FILEPATH).exists())
-    		throw new FileNotFoundException("Storage File Missing");
-    	return true;
+    public boolean exists() throws FileNotFoundException {
+        if (!new File(DEFAULT_STORAGE_FILEPATH).exists())
+            throw new FileNotFoundException("Storage File Missing");
+        return true;
     }
 
 }
